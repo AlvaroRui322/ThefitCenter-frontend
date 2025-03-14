@@ -20,7 +20,7 @@ body {
 }
 
 .hero {
-    background: url("/gym-background.jpg") no-repeat center center/cover;
+    background: url("https://img.freepik.com/premium-photo/bodybuilders-determination-flexing-muscles-achieving-strength_908344-51221.jpg?w=900") no-repeat center center/cover;
     height: 100vh;
     display: flex;
     align-items: center;

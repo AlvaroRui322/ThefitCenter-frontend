@@ -1,6 +1,11 @@
 <script>
 export default {
-  name: "Home"
+  name: "Home",
+  methods: {
+    goToRegister() {
+      this.$router.push("/register");
+    }
+  }
 }
 </script>
 
@@ -8,7 +13,7 @@ export default {
   <div class="hero">
     <h1>Private Coaching for Busy People</h1>
     <p>Entrenamiento personalizado para que alcances tus objetivos.</p>
-    <button class="button">Sign Up Today</button>
+    <button class="button" @click="goToRegister">Sign Up Today</button>
   </div>
 </template>
 
